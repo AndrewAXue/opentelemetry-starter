@@ -2,19 +2,14 @@ import argparse
 import json
 
 from flask import Flask
-from opencensus.trace.execution_context import get_opencensus_tracer
-
-from tracer import get_flask_middleware
 
 app = Flask(__name__)
-get_flask_middleware(app)
+#get_flask_middleware(app)
 VENDOR_URL_BASE = '127.0.0.1'
 
 @app.route('/get_food', methods=['GET'])
 def get_food():
-    tracer = get_opencensus_tracer()
-    with tracer.span(name="food_vendor_{}:{}".format(VENDOR_URL_BASE, app.config['PORT'])) as _:
-        return json.dumps({'stock': 3, 'price': 5})
+    return json.dumps({'stock': 3, 'price': 5})
 
 
 if __name__ == '__main__':
