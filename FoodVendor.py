@@ -1,9 +1,11 @@
-from flask import Flask, request
-
-from tracer import get_flask_middleware
 import argparse
 import json
+
+from flask import Flask
 from opencensus.trace.execution_context import get_opencensus_tracer
+
+from tracer import get_flask_middleware
+
 app = Flask(__name__)
 get_flask_middleware(app)
 VENDOR_URL_BASE = '127.0.0.1'
