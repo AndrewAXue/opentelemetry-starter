@@ -21,7 +21,7 @@ def target_food_input_post_flask():
 
 
 def _query_supplier(target_food):
-    supplier_response = json.loads(str(requests.get(SUPPLIER_URL.format(target_food)).content))
+    supplier_response = json.loads(requests.get(SUPPLIER_URL.format(target_food)).content.decode("utf-8"))
     return [x for x in supplier_response]
 
 
