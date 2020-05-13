@@ -16,10 +16,8 @@ opentelemetry-ext-jaeger==0.7b1
 opentelemetry-ext-requests==0.7b1
 opentelemetry-ext-wsgi==0.7b1
 opentelemetry-sdk==0.7b1
-python-apt==1.4.1
 requests==2.23.0
 six==1.14.0
 thrift==0.13.0
-unattended-upgrades==0.1
 urllib3==1.25.9
 Werkzeug==1.0.1
