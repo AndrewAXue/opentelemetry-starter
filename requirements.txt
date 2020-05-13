@@ -1,0 +1,115 @@
+Package                            Version    Location
+---------------------------------- ---------- --------------------------------------------------------------------------------------------------------------
+aiohttp                            3.6.2
+alabaster                          0.7.12
+appdirs                            1.4.4
+asgiref                            3.2.7
+astroid                            2.3.3
+async-timeout                      3.0.1
+attrs                              19.3.0
+Babel                              2.8.0
+black                              19.10b0
+bleach                             3.1.5
+certifi                            2020.4.5.1
+chardet                            3.0.4
+click                              7.1.2
+coverage                           5.1
+Deprecated                         1.2.9
+distlib                            0.3.0
+Django                             3.0.6
+docutils                           0.16
+filelock                           3.0.12
+flake8                             3.8.0
+Flask                              1.1.2
+grpcio                             1.28.1
+httpretty                          1.0.2
+idna                               2.9
+imagesize                          1.2.0
+importlib-metadata                 1.6.0
+isort                              4.3.21
+itsdangerous                       1.1.0
+Jinja2                             2.11.2
+lazy-object-proxy                  1.4.3
+MarkupSafe                         1.1.1
+mccabe                             0.6.1
+more-itertools                     8.2.0
+multidict                          4.7.5
+mypy                               0.740
+mypy-extensions                    0.4.3
+mysql-connector-python             8.0.20
+opencensus-proto                   0.1.0
+opentelemetry-api                  0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/opentelemetry-api/src
+opentelemetry-auto-instrumentation 0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/opentelemetry-auto-instrumentation/src
+opentelemetry-example-app          0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/docs/examples/opentelemetry-example-app/src
+opentelemetry-ext-aiohttp-client   0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/ext/opentelemetry-ext-aiohttp-client/src
+opentelemetry-ext-dbapi            0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/ext/opentelemetry-ext-dbapi/src
+opentelemetry-ext-django           0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/ext/opentelemetry-ext-django/src
+opentelemetry-ext-flask            0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/ext/opentelemetry-ext-flask/src
+opentelemetry-ext-grpc             0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/ext/opentelemetry-ext-grpc/src
+opentelemetry-ext-jaeger           0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/ext/opentelemetry-ext-jaeger/src
+opentelemetry-ext-mysql            0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/ext/opentelemetry-ext-mysql/src
+opentelemetry-ext-otcollector      0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/ext/opentelemetry-ext-otcollector/src
+opentelemetry-ext-prometheus       0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/ext/opentelemetry-ext-prometheus/src
+opentelemetry-ext-psycopg2         0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/ext/opentelemetry-ext-psycopg2/src
+opentelemetry-ext-pymongo          0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/ext/opentelemetry-ext-pymongo/src
+opentelemetry-ext-pymysql          0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/ext/opentelemetry-ext-pymysql/src
+opentelemetry-ext-redis            0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/ext/opentelemetry-ext-redis/src
+opentelemetry-ext-requests         0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/ext/opentelemetry-ext-requests/src
+opentelemetry-ext-sqlalchemy       0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/ext/opentelemetry-ext-sqlalchemy/src
+opentelemetry-ext-wsgi             0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/ext/opentelemetry-ext-wsgi/src
+opentelemetry-ext-zipkin           0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/ext/opentelemetry-ext-zipkin/src
+opentelemetry-opentracing-shim     0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/ext/opentelemetry-ext-opentracing-shim/src
+opentelemetry-sdk                  0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/opentelemetry-sdk/src
+opentelemetry-test                 0.7.dev0   /usr/local/google/home/aaxue/Documents/google/opentelemetry-python/tests/util/src
+opentracing                        2.3.0
+packaging                          20.3
+pathspec                           0.8.0
+pip                                20.1
+pkg-resources                      0.0.0
+pluggy                             0.13.1
+prometheus-client                  0.7.1
+protobuf                           3.11.3
+psycopg2-binary                    2.8.5
+py                                 1.8.1
+pycodestyle                        2.6.0
+pyflakes                           2.2.0
+Pygments                           2.6.1
+pylint                             2.4.4
+pymongo                            3.10.1
+PyMySQL                            0.9.3
+pyparsing                          2.4.7
+pytest                             5.4.2
+pytest-cov                         2.8.1
+pytz                               2020.1
+readme-renderer                    24.0
+redis                              3.5.1
+regex                              2020.5.7
+requests                           2.23.0
+setuptools                         46.2.0
+six                                1.14.0
+snowballstemmer                    2.0.0
+Sphinx                             2.4.4
+sphinx-autodoc-typehints           1.10.3
+sphinx-rtd-theme                   0.4.3
+sphinxcontrib-applehelp            1.0.2
+sphinxcontrib-devhelp              1.0.2
+sphinxcontrib-htmlhelp             1.0.3
+sphinxcontrib-jsmath               1.0.1
+sphinxcontrib-qthelp               1.0.3
+sphinxcontrib-serializinghtml      1.1.4
+SQLAlchemy                         1.3.16
+sqlparse                           0.3.1
+thrift                             0.13.0
+toml                               0.10.0
+tox                                3.15.0
+typed-ast                          1.4.1
+typing-extensions                  3.7.4.2
+urllib3                            1.25.9
+virtualenv                         20.0.20
+wcwidth                            0.1.9
+webencodings                       0.5.1
+Werkzeug                           1.0.1
+wheel                              0.34.2
+wrapt                              1.11.2
+yarl                               1.4.2
+zipp                               3.1.0

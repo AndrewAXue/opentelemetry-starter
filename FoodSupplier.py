@@ -1,8 +1,9 @@
-from flask import Flask, request, jsonify
+from flask import Flask, redirect, url_for, request, render_template, jsonify
+from tracer_setup import setup_tracer
 
 app = Flask(__name__)
-#get_flask_middleware(app)
-
+from opentelemetry import trace
+setup_tracer(app)
 
 def _get_vendors_with_target(target_food, lookup_method='static'):
     if lookup_method == 'static':
@@ -16,8 +17,11 @@ def _get_vendors_with_target(target_food, lookup_method='static'):
 
 @app.route('/get_food_vendors', methods=['GET'])
 def get_food_vendors():
-    target_food = request.args['target_food']
-    return jsonify(_get_vendors_with_target(target_food))
+    tracer = trace.get_tracer(__name__)
+    with tracer.start_as_current_span('supplying_food_manual') as food_span:
+        food_span.set_attribute('key', 'value')
+        target_food = request.args['target_food']
+        return jsonify(_get_vendors_with_target(target_food))
 
 
 if __name__ == '__main__':
