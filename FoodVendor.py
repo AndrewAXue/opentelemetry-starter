@@ -21,4 +21,4 @@ if __name__ == '__main__':
         '--port', help='Port of this vendor, we just assume all vendor urls are localhost:<port>', default='5002')
     args = parser.parse_args()
     app.config['PORT'] = args.port
-    app.run(port=args.port)
+    app.run(host='0.0.0.0', port=args.port)
