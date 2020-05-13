@@ -8,7 +8,7 @@ setup_tracer(app)
 def _get_vendors_with_target(target_food, lookup_method='static'):
     if lookup_method == 'static':
         VENDOR_DATA = {
-            'http://127.0.0.1:5002': ['egg', 'bean', 'cheese'],
+            '34.71.102.91:5002': ['egg', 'bean', 'cheese'],
             'http://127.0.0.1:5003': ['egg', 'potato'],
             'http://127.0.0.1:5004': ['bread'],
         }
