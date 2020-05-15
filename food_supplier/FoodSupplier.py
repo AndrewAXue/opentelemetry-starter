@@ -1,5 +1,6 @@
 from flask import Flask, redirect, url_for, request, render_template, jsonify
 from tracer_setup import setup_tracer
+import os
 
 app = Flask(__name__)
 from opentelemetry import trace
@@ -8,7 +9,7 @@ setup_tracer(app)
 def _get_vendors_with_target(target_food, lookup_method='static'):
     if lookup_method == 'static':
         VENDOR_DATA = {
-            '34.71.102.91:5002': ['egg', 'bean', 'cheese'],
+            'https://food-vendor-airgfkjhea-ue.a.run.app': ['egg', 'bean', 'cheese'],
             'http://127.0.0.1:5003': ['egg', 'potato'],
             'http://127.0.0.1:5004': ['bread'],
         }
@@ -25,4 +26,6 @@ def get_food_vendors():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5001)
+    port = os.getenv('PORT') or 5001
+    print("running supplier")
+    app.run(host='0.0.0.0', port=port)

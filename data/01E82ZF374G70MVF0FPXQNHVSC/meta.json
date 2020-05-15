@@ -1,0 +1,17 @@
+{
+	"ulid": "01E82ZF374G70MVF0FPXQNHVSC",
+	"minTime": 1589227200000,
+	"maxTime": 1589234400000,
+	"stats": {
+		"numSamples": 15449,
+		"numSeries": 22,
+		"numChunks": 132
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01E82ZF374G70MVF0FPXQNHVSC"
+		]
+	},
+	"version": 1
+}

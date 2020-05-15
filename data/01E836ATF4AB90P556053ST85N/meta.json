@@ -1,0 +1,17 @@
+{
+	"ulid": "01E836ATF4AB90P556053ST85N",
+	"minTime": 1589234400000,
+	"maxTime": 1589241600000,
+	"stats": {
+		"numSamples": 3600,
+		"numSeries": 5,
+		"numChunks": 30
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01E836ATF4AB90P556053ST85N"
+		]
+	},
+	"version": 1
+}

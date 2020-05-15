@@ -1,0 +1,12 @@
+steps:
+# Build the container image
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/aaxue-starter/food-vendor', '.']
+# Push the container image to Container Registry
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/aaxue-starter/food-vendor']
+# Deploy container image to Cloud Run
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['run', 'deploy', 'food-vendor', '--image', 'gcr.io/aaxue-starter/food-vendor', '--region', 'us-east1', '--platform', 'managed']
+images:
+- gcr.io/aaxue-starter/food-vendor
