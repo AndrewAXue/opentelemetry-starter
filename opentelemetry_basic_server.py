@@ -42,7 +42,7 @@ trace.get_tracer_provider().add_span_processor(
     SimpleExportSpanProcessor(cloud_exporter)
 )
 
-port = 5000
+port = 5010
 talk_to = None
 @app.route("/opentelemetry_server_flask_" + str(port), methods=["GET"])
 def opentelemetry_server_flask():
@@ -55,4 +55,4 @@ def opentelemetry_server_flask():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=port)
+    app.run(port=port)
