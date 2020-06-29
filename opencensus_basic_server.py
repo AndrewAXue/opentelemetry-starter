@@ -32,4 +32,6 @@ def opencensus_server_flask():
 
 
 if __name__ == "__main__":
-    app.run(port=port)
+    port = os.getenv('PORT') or port
+    print("running finder")
+    app.run(host='0.0.0.0', port=port)
