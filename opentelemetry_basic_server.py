@@ -53,6 +53,9 @@ def opentelemetry_server_flask():
             requests.get(talk_to)
         return "GOOD"
 
+@app.route('/')
+def hello_world():
+    return 'You probably want {}'.format("/opentelemetry_server_flask_" + str(port))
 
 if __name__ == "__main__":
     port = os.getenv('PORT') or port
